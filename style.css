@@ -35,7 +35,7 @@
 #main_side {
   justify-content: flex-start;
   padding-left: 5vw;
-  padding-top: 20vh;
+  padding-top: 18vh;
   align-content: center;
 }
 
@@ -55,4 +55,44 @@
   font-family: 'Oswald';
   margin-bottom: 1vh;
   font-size: 1.5vh;
+}
+
+#aboutInfo , #list , #players {
+  padding: 2vh;
+  margin-top: 4vh;
+  margin-right: 14%;
+  margin-left: 3%;
+}
+
+#aboutInfo p , #list li {
+  font-family: 'Source Code Pro';
+  font-size: 2vh;
+}
+
+#aboutInfo img {
+  width: 70vw;
+}
+
+#list h1 {
+  font-family: 'Source Code Pro';
+}
+
+#players {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#players img {
+  padding: 2vw;
+}
+
+#players h1 {
+  font-family: 'Source Code Pro';
+  font-size: 1.3vh;
+  text-align: center;
+}
+
+#players p {
+  padding: 1vw;
 }
