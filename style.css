@@ -1,0 +1,58 @@
+* {
+  background-color: black;
+  color: white;
+}
+
+#main_main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#main {
+  padding-top: 28vh;
+}
+
+#main h1 {
+  font-family: 'Oswald';
+  font-size: 15vh;
+  color: white;
+  text-align: center;
+}
+
+#main a {
+  color: #fff;
+}
+
+#main a:visited {
+  color: #fff;
+}
+
+#body {
+  display: flex;
+}
+
+#main_side {
+  justify-content: flex-start;
+  padding-left: 5vw;
+  padding-top: 20vh;
+  align-content: center;
+}
+
+#main_side h1 {
+  font-family: 'Oswald';
+  font-size: 5vh;
+}
+
+#navbar {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  position: fixed;
+}
+
+#navbar a {
+  font-family: 'Oswald';
+  margin-bottom: 1vh;
+  font-size: 1.5vh;
+}
