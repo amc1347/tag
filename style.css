@@ -35,25 +35,37 @@
 #main_side {
   justify-content: flex-start;
   padding-left: 5vw;
-  padding-top: 18vh;
+  padding-top: 20vh;
+  padding-right: 2vw;
 }
 
 #main_side h1 {
   font-family: 'Oswald';
-  font-size: 5vh;
+  font-size: 0vh;
 }
 
 #navbar {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-
+  line-height: 1.8vh;
 }
 
 #navbar a {
   font-family: 'Oswald';
   margin-bottom: 1vh;
-  font-size: 1.5vh;
+  font-size: 1.8vh;
+  margin-top: .3vh;
+
+}
+
+#navbarr {
+  margin-top: .5vh;
+}
+
+#navbarr a {
+  font-family: 'Oswald';
+  font-size: 3.1vh;
 }
 
 #aboutInfo , #list , #players {
@@ -81,10 +93,16 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 #players img {
-  padding: 2vw;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  padding-right: 3vw;
+  padding-left: 2.7vw;
+  width: 15vw;
+
 }
 
 #players h1 {
@@ -95,9 +113,9 @@
 
 #players p {
   font-family: 'Source Code Pro';
-  font-size: 1.2vh;
+  font-size: 1.3vh;
   padding: 1vw;
-  width: 350px;
+  width: 18vw;
   text-align: center;
 }
 
