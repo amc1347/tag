@@ -122,3 +122,69 @@
 #list li {
   padding: 1vh;
 }
+
+@media (max-width:1120px) {
+    * {
+      background-color: black;
+    }
+
+    #main_side {
+      width: 10%;
+      padding-right: -3vw;
+      position: fixed;
+    }
+
+    .menu img{
+      width: 40px;
+    }
+
+    #navbar {
+      display: flex;
+      flex-direction: column;
+    }
+
+    #navbar a {
+      text-align: left;
+      font-size: 120%;
+      margin: 3px;
+    }
+
+    #navbarr h1 {
+      font-size: 110%;
+      text-align: left;
+      margin-bottom: 1px;
+      margin-top: -4px;
+    }
+
+    #players {
+      display: flex;
+      justify-content: flex-end;
+      padding-left: 100px;
+      text-align: center;
+      padding-right: 2vw;
+    }
+
+    #player h1 {
+      margin: -100vw;
+    }
+
+    #players img {
+      width: 60vw;
+      padding: 0
+    }
+
+    #players p {
+      width: 65vw;
+      font-size: 90%;
+      line-height: 120%;
+      text-align: center;
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+
+
+
+
+
+
+}
